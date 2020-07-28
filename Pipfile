@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+coverage = "*"
+flake8 = "*"
+selenium = "*"
+
+[packages]
+gunicorn = "==19.7.1"
+whitenoise = "==5.0"
+ibmcloudenv = "*"
+livereload = "*"
+django = ">=3.0.7"
